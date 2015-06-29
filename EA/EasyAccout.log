@@ -1,0 +1,20 @@
+2015-05-18 16:09:24.864000 select * from capital where year=2015 and month=5 and type=0 order by day,id
+2015-05-18 16:09:24.906000 select * from capital where year=2015 and month=5 and type=1 order by day,id
+2015-05-18 16:09:24.917000 select * from recycle order by id
+2015-05-18 16:09:24.960000 try update file: 
+2015-05-18 16:09:25.005000 version: Windows 7 6.1.7601 7601 Service Pack 1
+2015-05-18 16:09:25.010000 Traceback (most recent call last):
+  File "C:\Users\Mason\Desktop\EA\ui\update.py", line 61, in update
+    ret = self.updateone(u)
+  File "C:\Users\Mason\Desktop\EA\ui\update.py", line 72, in updateone
+    fs = urllib2.urlopen(fileurl)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 423, in open
+    protocol = req.get_type()
+  File "C:\Python27\lib\urllib2.py", line 285, in get_type
+    raise ValueError, "unknown url type: %s" % self.__original
+ValueError: unknown url type: ?sys=win32&ver=1.0.0&info=Windows%207%206.1.7601%207601%20Service%20Pack%201&name=1431936118.641000.1.0.0.win32.286e6e0ffd3411e48187005056c00008
+
+2015-05-18 16:09:28.277000 task thread end
+2015-05-18 16:09:28.506000 server thread end
